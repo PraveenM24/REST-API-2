@@ -1,6 +1,6 @@
 const express = require('express') //Include Express Framework
 const mongoose = require('mongoose') //Include Mongoose
-const url = 'mongodb+srv://tpgit:tpgit@tpgit.ubcql.mongodb.net/SigamTech?retryWrites=true&w=majority' //Database URL
+const url = 'mongodb+srv://tpgit:tpgit@tpgit.ubcql.mongodb.net/SigmaTech?retryWrites=true&w=majority' //Database URL
 const PORT = process.env.PORT || 7000;
 
 const app = express() //Start Express Framework
