@@ -24,7 +24,9 @@ app.use(function(req, res, next){
 })
 
 const alienRouter = require('./routes/aliens')
+const alienRouter2 = require('./routes/aliens2')
 app.use('/employees', alienRouter)
+app.use('/login', alienRouter2)
 
 app.listen(PORT, () =>{
     console.log('Server Started')
