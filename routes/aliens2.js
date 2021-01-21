@@ -13,14 +13,8 @@ router.get('/', async(req, res) => {
 
 router.post('/', async(req,res) => {
     const alien = new Alien({
-        empname: req.body.empname,
         empid: req.body.empid,
-        email: req.body.email,
-        tech: req.body.tech,
-        team: req.body.team,
-        age: req.body.age,
-        experience: req.body.experience,
-        salary: req.body.salary
+        password: req.body.password
     })
 
     try{

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 
-const alienSchema = new mongoose.Schema({
+const alienSchema2 = new mongoose.Schema({
 
     empid:{
         type: String,
@@ -13,4 +13,4 @@ const alienSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('Alien', alienSchema)
+module.exports = mongoose.model('Alien2', alienSchema2)
