@@ -14,7 +14,8 @@ router.get('/', async(req, res) => {
 router.post('/', async(req,res) => {
     const alien = new Alien({
         empid: req.body.empid,
-        password: req.body.password
+        password: req.body.password,
+        email: req.body.email
     })
 
     try{
